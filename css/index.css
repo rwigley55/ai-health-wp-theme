@@ -281,6 +281,7 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  padding-bottom: 5rem;
   gap: 3rem;
 }
 
@@ -366,8 +367,105 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  padding-bottom: 5rem;
   gap: 3rem;
   color: #fef4ee;
+}
+
+@media (min-width: 768px) {
+  .section-container-two {
+    flex-direction: row;
+  }
+
+  .section-container-two > * {
+    flex: 1;
+  }
+}
+
+.homepage__headshot {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.homepage__headshot-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.homepage__headshot-button {
+  background-color: #fef4ee;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 215px;
+  height: auto;
+}
+
+.homepage__headshot-button > a {
+  text-decoration: none;
+  font-size: clamp(0.825rem, 0.825rem + ((1vw - 0.2rem) * 0.353), 1.0625rem);
+  /* color: #fef4ee; */
+}
+
+.section-container-three {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  gap: 3rem;
+  background-color: #fef4ee;
+  color: #0b303b;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-container-three {
+    flex-direction: row;
+  }
+
+  .section-container-three > * {
+    flex: 1;
+  }
+}
+
+.homepage__product {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.homepage__product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.homepage__product-description > h2 {
+  font-size: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.37), 2rem);
+  font-weight: 600;
+}
+
+.homepage__product-button {
+  background-color: #0b303b;
+  color: #fef4ee;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 215px;
+  height: auto;
+}
+
+.homepage__product-button > a {
+  text-decoration: none;
+  font-size: clamp(0.825rem, 0.825rem + ((1vw - 0.2rem) * 0.353), 1.0625rem);
+  /* color: #fef4ee; */
 }
 
 /***************/

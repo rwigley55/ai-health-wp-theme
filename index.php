@@ -26,9 +26,29 @@
 </section>
 <section>
     <div class="section-container-two">
-        <h2>“Lativ has never been a concern since day one. It takes care of everything for you, so you can focus on the important things”</h2>
-        <p>Valerie Thompson <br />
-            CEO, Marathon</p>
+        <div>
+            <img class="homepage__headshot" src="<?php echo get_theme_file_uri("/images/homepage__ceo-headshot.webp") ?>" alt="">
+        </div>
+        <div class="homepage__headshot-description">
+            <h2>“Lativ has never been a concern since day one. It takes care of everything for you, so you can focus on the important things”</h2>
+            <p>Valerie Thompson <br />
+                CEO, Marathon
+            </p>
+            <button class="homepage__headshot-button"><a href="#">View Case Study</a></button>
+        </div>
     </div>
 </section>
-<?php get_footer(); ?>
+<section>
+    <div class="section-container-three">
+        <div style="order: 2;">
+            <img class="homepage__product" src="<?php echo get_theme_file_uri("/images/homepage__product.jpg") ?>" alt="">
+        </div>
+        <div style="order: 1;" class="homepage__product-description">
+            <h2>Get the full experience with Health AI Tracker</h2>
+            <p>
+                With Health AI Tracker, you’re able to measure physical data such as blood pressure, cholesterol levels, blood glucose levels, your menstrual cycle and so much more.
+            </p>
+            <button class="homepage__product-button"><a href="#">Explore the Product</a></button>
+        </div>
+    </div>
+    <?php get_footer(); ?>
