@@ -12,8 +12,10 @@
 </head>
 
 <body>
-    <div class="page-container">
-        <header class="page-nav">
+    <!-- <div class="page-container"> -->
+    <section>
+    <header>
+        <nav class="page-nav">
             <span class="page-nav__logo">Health AI</span>
             <i id="page-nav__mobile-button" class="fa-solid fa-bars"></i>
             <ul class="page-nav__list">
@@ -29,4 +31,5 @@
                 </li>
             </ul>
             <button class="page-nav__button"><a href="#">Try Demo</a></button>
-        </header>
+        </nav>
+    </header>

@@ -143,6 +143,18 @@ select {
 /* Body Settup */
 /***************/
 body {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #0b303b;
+}
+
+/***************/
+/* Elements    */
+/***************/
+
+section {
   background: linear-gradient(
     127deg,
     rgb(190, 185, 242) 0%,
@@ -150,32 +162,34 @@ body {
     rgb(252, 217, 210) 65%,
     rgb(197, 180, 217) 100%
   );
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+  padding-top: 2rem;
 }
 
-/***************/
-/* Elements    */
-/***************/
+section:nth-of-type(2) {
+  background: #0b303b;
+}
 
-.page-container {
+/* .page-container {
   width: 85%;
   margin: 0 auto;
-}
+} */
 
 /***************/
 /* Header      */
 /***************/
 
+header {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .page-nav {
   background-color: #fef4ee;
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
   padding: 1rem;
   border-radius: 1rem;
+  /* position: fixed; */
 }
 
 .page-nav__logo {
@@ -255,6 +269,105 @@ body {
 .page-nav__dropdown > li > a {
   text-decoration: none;
   white-space: nowrap;
+}
+
+/***************/
+/* Homepage    */
+/***************/
+
+.section-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.homepage__heading {
+  text-align: center;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: clamp(2.876rem, 2.876rem + ((1vw - 0.2rem) * 4.036), 5.6rem);
+  text-wrap: balance;
+}
+
+.homepage__subheading {
+  text-align: center;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.37), 1.25rem);
+}
+
+.homepage__company-tray-heading {
+  font-weight: 500;
+  text-align: center;
+}
+
+.homepage__card-heading {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.37), 2rem);
+}
+
+.homepage__card-tray {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.homepage__card-tray h3 {
+  font-weight: 300;
+  font-size: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.37), 2rem);
+  margin-top: 1rem;
+}
+
+.homepage__card-tray img {
+  width: 180px;
+  height: auto;
+}
+
+.homepage__card-tray p {
+  font-size: clamp(0.825rem, 0.825rem + ((1vw - 0.2rem) * 0.353), 1.0625rem);
+  margin-top: 1rem;
+}
+
+.homepage__card-one {
+  background-color: #e2fdc7;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.homepage__card-two {
+  color: #fef4ee;
+  background-color: #0b303b;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.homepage__card-three {
+  color: #fef4ee;
+  background-color: #5454d2;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 920px) {
+  .homepage__card-tray {
+    flex-direction: row;
+  }
+}
+
+.section-container-two {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 3rem;
+  color: #fef4ee;
 }
 
 /***************/

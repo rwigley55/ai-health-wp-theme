@@ -1,12 +1,34 @@
 <?php get_header(); ?>
-<h1 style="font-size: 3rem;">Manage your health easily.</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac placerat vestibulum lectus mauris ultrices eros. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Non quam lacus suspendisse faucibus. At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ultrices in iaculis nunc sed. Eget nunc lobortis mattis aliquam faucibus purus in massa. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Pharetra massa massa ultricies mi quis. Ac tortor dignissim convallis aenean et tortor at risus. Nec feugiat in fermentum posuere urna nec.
-
-    Ac auctor augue mauris augue neque gravida in fermentum. Sed viverra tellus in hac. Elementum integer enim neque volutpat ac tincidunt vitae semper. Blandit massa enim nec dui nunc mattis enim ut. Volutpat odio facilisis mauris sit amet massa vitae tortor. Ac tortor dignissim convallis aenean et. Ultrices in iaculis nunc sed augue lacus viverra vitae. Quis vel eros donec ac odio tempor orci. Interdum velit euismod in pellentesque massa placerat. Praesent tristique magna sit amet purus gravida. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Posuere ac ut consequat semper viverra nam libero justo. Nulla pellentesque dignissim enim sit amet venenatis urna cursus.
-
-    Egestas maecenas pharetra convallis posuere. Adipiscing bibendum est ultricies integer quis auctor elit sed. Nunc sed id semper risus in. Dolor sed viverra ipsum nunc aliquet bibendum. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. Id neque aliquam vestibulum morbi blandit cursus risus. Posuere sollicitudin aliquam ultrices sagittis. Quam lacus suspendisse faucibus interdum. Faucibus a pellentesque sit amet porttitor eget dolor. Sem integer vitae justo eget. Erat pellentesque adipiscing commodo elit at imperdiet.
-
-    Placerat orci nulla pellentesque dignissim enim sit amet venenatis urna. Risus nullam eget felis eget nunc lobortis mattis. Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Purus viverra accumsan in nisl nisi. Elit at imperdiet dui accumsan sit amet nulla facilisi. Viverra justo nec ultrices dui sapien eget mi. Lectus mauris ultrices eros in cursus. Lacinia quis vel eros donec ac odio tempor orci. Amet purus gravida quis blandit turpis cursus in. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Egestas integer eget aliquet nibh praesent. Sit amet cursus sit amet dictum. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum.
-
-    Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Ac felis donec et odio pellentesque diam. Vitae elementum curabitur vitae nunc. In fermentum posuere urna nec tincidunt. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Felis bibendum ut tristique et egestas quis. Non arcu risus quis varius quam quisque id diam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Lacus sed turpis tincidunt id aliquet risus feugiat in. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Tempus urna et pharetra pharetra massa massa.</p>
+<div class="section-container">
+    <h1 class="homepage__heading">Manage your health easily.</h1>
+    <p class="homepage__subheading">An AI-powered healthcare platform that provides patients and healthcare professionals better medical records, diagnoses, and treatment plans management.</p>
+    <p class="homepage__company-tray-heading">Trusted by the best</p>
+    <p class="homepage__company-tray-heading">Placeholder#1 Placeholder#2 Placeholder#3 Placeholder#4 Placeholder#5</p>
+    <h2 class="homepage__card-heading">Why Lativ</h2>
+    <div class="homepage__card-tray">
+        <div class="homepage__card-one">
+            <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-1.webp") ?>" alt="">
+            <h3>Medical Records Management</h3>
+            <p>Easily access and share medical records with your healthcare professional, ensuring more efficient care.</p>
+        </div>
+        <div class="homepage__card-two">
+            <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-2.webp") ?>" alt="">
+            <h3>Diagnosis Assistance</h3>
+            <p>Our AI algorithms analyze your data to provide accurate diagnosis assistance to healthcare professionals.</p>
+        </div>
+        <div class="homepage__card-three">
+            <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-3.webp") ?>" alt="">
+            <h3>Personalized Treatment Plans</h3>
+            <p>By tailoring treatment plans to your specific needs, Lativ helps improve outcomes and incrlativ your health.</p>
+        </div>
+    </div>
+</div>
+</section>
+<section>
+    <div class="section-container-two">
+        <h2>“Lativ has never been a concern since day one. It takes care of everything for you, so you can focus on the important things”</h2>
+        <p>Valerie Thompson <br />
+            CEO, Marathon</p>
+    </div>
+</section>
 <?php get_footer(); ?>
