@@ -143,6 +143,13 @@ select {
 /* Body Settup */
 /***************/
 body {
+  background: linear-gradient(
+    127deg,
+    rgb(190, 185, 242) 0%,
+    rgb(197, 180, 217) 29%,
+    rgb(252, 217, 210) 65%,
+    rgb(197, 180, 217) 100%
+  );
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -155,13 +162,6 @@ body {
 /***************/
 
 section {
-  background: linear-gradient(
-    127deg,
-    rgb(190, 185, 242) 0%,
-    rgb(197, 180, 217) 29%,
-    rgb(252, 217, 210) 65%,
-    rgb(197, 180, 217) 100%
-  );
   padding-top: 2rem;
 }
 
@@ -472,7 +472,7 @@ header {
 /* Page        */
 /***************/
 
-.page-container {
+.page__container {
   width: 85%;
   margin: 0 auto;
   display: flex;
@@ -487,17 +487,22 @@ header {
   padding: 3rem;
 }
 
-.page-container > * {
+.page__container > * {
   max-width: 620px;
 }
 
-.page-container > h1 {
+.page__container > h1 {
   font-size: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 0.741), 3rem);
   font-weight: 400;
 }
 
-.page-container > p {
+.page__container > p {
   font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.37), 1.25rem);
+}
+
+.page__parent-return {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /***************/
