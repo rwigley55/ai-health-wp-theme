@@ -4,10 +4,12 @@ get_header();
 
 while (have_posts()) {
     the_post(); ?>
-    <h1><?php the_title(); ?></h1>
-    <h2>Page test</h2>
-    <?php the_content(); ?>
-
+    <section>
+        <div class="page-container">
+            <h1><?php the_title(); ?></h1>
+            <?php the_content(); ?>
+        </div>
+    </section>
 <?php }
 
 get_footer();
