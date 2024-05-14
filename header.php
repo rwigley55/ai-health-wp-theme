@@ -15,11 +15,11 @@
     <section>
         <header>
             <nav class="page-nav">
-                <span class="page-nav__logo">Health AI</span>
+                <span class="page-nav__logo"><a href="<?php echo site_url("/") ?>">Health AI</a></span>
                 <i id="page-nav__mobile-button" class="fa-solid fa-bars"></i>
                 <ul class="page-nav__list">
                     <li><a href="<?php echo site_url("/about") ?>">About</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="<?php echo site_url("/blog") ?>">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                     <li style="position: relative;"><a href="<?php echo site_url("/product") ?>">Product</a><button class="page-nav__dropdown-button" id="dropdown-button"><i class="fa-solid fa-angle-down"></i></button>
                         <ul class="page-nav__dropdown display-none">

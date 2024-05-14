@@ -22,7 +22,7 @@
         <div class="page-footer__box">
             <h3>Resources</h3>
             <ul>
-                <li><a href="#">Blog</a></li>
+                <li><a href="<?php echo site_url("/blog") ?>">Blog</a></li>
                 <li><a href="#">Case Studies</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
@@ -30,7 +30,7 @@
         <div class="page-footer__box">
             <h3>Company</h3>
             <ul>
-                <li><a href="#">About</a></li>
+                <li><a href="<?php echo site_url("/about") ?>">About</a></li>
                 <li><a href="#">Careers</a></li>
             </ul>
         </div>
