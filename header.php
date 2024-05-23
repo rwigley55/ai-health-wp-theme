@@ -24,7 +24,7 @@
                     <li style="position: relative;"><a href="<?php echo site_url("/product") ?>">Product</a><button class="page-nav__dropdown-button" id="dropdown-button"><i class="fa-solid fa-angle-down"></i></button>
                         <ul class="page-nav__dropdown display-none">
                             <li><a href="<?php echo site_url("/product/pricing") ?>">Pricing</a></li>
-                            <li><a href="#">Devices</a></li>
+                            <li><a href="<?php echo get_post_type_archive_link("device") ?>">Devices</a></li>
                             <li><a href="#">Health Technology</a></li>
                         </ul>
                     </li>
