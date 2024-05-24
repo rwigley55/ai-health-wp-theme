@@ -578,6 +578,56 @@ header {
 }
 
 /***************/
+/* Device Index*/
+/***************/
+
+.device-index__card-link {
+  width: 100%;
+  color: inherit;
+}
+
+.device-index__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fef4ee;
+  border-radius: 1rem;
+  padding: 3rem;
+  gap: 0.5rem;
+}
+
+.device-index__card-details {
+  align-self: center;
+  text-align: center;
+}
+
+.device-index__card-details > h2 {
+  font-size: clamp(1.25rem, -0.4198rem + 7.1247vw, 3rem);
+}
+
+.device-index__card-details > p {
+  font-size: clamp(0.625rem, -0.05rem + 2.88vw, 1.75rem);
+}
+
+.device-index__card img {
+  width: 300px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .device-index__card {
+    flex-direction: row;
+  }
+
+  .device-index__card-details {
+    text-align: right;
+    margin-left: auto;
+  }
+}
+
+/***************/
 /* Devices     */
 /***************/
 
