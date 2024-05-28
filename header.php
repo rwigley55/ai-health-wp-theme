@@ -11,7 +11,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <!-- <div class="page-container"> -->
     <section>
         <header>
             <nav class="page-nav">
@@ -30,5 +29,6 @@
                     </li>
                 </ul>
                 <button class="page-nav__button"><a href="#">Try Demo</a></button>
+                <i class="fa-solid fa-square-xmark page-nav__close-button"></i>
             </nav>
         </header>
