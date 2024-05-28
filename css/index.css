@@ -490,9 +490,9 @@ header {
   padding: 3rem;
 }
 
-.page__container > * {
+/* .page__container > * {
   max-width: 620px;
-}
+} */
 
 .page__container > h1 {
   font-size: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 0.741), 3rem);
@@ -501,6 +501,14 @@ header {
 
 .page__container > p {
   font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.37), 1.25rem);
+}
+
+.page__container img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 1rem;
+  object-position: 50% 30%;
 }
 
 .page__parent-return {

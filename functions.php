@@ -16,6 +16,7 @@ function theme_features()
     add_theme_support("title-tag");
     add_theme_support("post-thumbnails");
     add_image_size("deviceLandscape", 800, 600, true);
+    add_image_size("pageLandscape", 667, 500, true);
 }
 
 add_action("after_setup_theme", "theme_features");
