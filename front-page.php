@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="section-container">
-    <h1 class="homepage__heading">Manage your health easily.</h1>
+    <h1 class="homepage__heading">Manage your health easily!</h1>
     <p class="homepage__subheading">An AI-powered healthcare platform that provides patients and healthcare professionals better medical records, diagnoses, and treatment plans management.</p>
     <p class="homepage__company-tray-heading">Trusted by the best</p>
     <img class="homepage__company-logos" src="<?php echo get_theme_file_uri("/images/homepage__logos.webp") ?>" alt="health companies" />
