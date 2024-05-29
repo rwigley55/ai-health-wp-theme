@@ -3,8 +3,8 @@
     <h1 class="homepage__heading">Manage your health easily.</h1>
     <p class="homepage__subheading">An AI-powered healthcare platform that provides patients and healthcare professionals better medical records, diagnoses, and treatment plans management.</p>
     <p class="homepage__company-tray-heading">Trusted by the best</p>
-    <p class="homepage__company-tray-heading">Placeholder#1 Placeholder#2 Placeholder#3 Placeholder#4 Placeholder#5</p>
-    <h2 class="homepage__card-heading">Why Lativ</h2>
+    <img class="homepage__company-logos" src="<?php echo get_theme_file_uri("/images/homepage__logos.webp") ?>" alt="health companies" />
+    <h2 class="homepage__card-heading">Why Health AI</h2>
     <div class="homepage__card-tray">
         <div class="homepage__card-one">
             <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-1.webp") ?>" alt="">
@@ -30,9 +30,9 @@
             <img class="homepage__headshot" src="<?php echo get_theme_file_uri("/images/homepage__ceo-headshot.webp") ?>" alt="">
         </div>
         <div class="homepage__headshot-description">
-            <h2>“Lativ has never been a concern since day one. It takes care of everything for you, so you can focus on the important things”</h2>
+            <h2>“Health AI has never been a concern since day one. It takes care of everything for you, so you can focus on the important things”</h2>
             <p>Valerie Thompson <br />
-                CEO, Marathon
+                CEO, Health AI
             </p>
             <button class="homepage__headshot-button"><a href="#">View Case Study</a></button>
         </div>
