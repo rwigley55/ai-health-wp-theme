@@ -179,6 +179,8 @@ section:nth-of-type(2) {
 /***************/
 
 header {
+  position: sticky;
+  top: 30px;
   width: 85%;
   margin: 0 auto;
 }

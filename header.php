@@ -11,24 +11,24 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <section>
-        <header>
-            <nav class="page-nav">
-                <span class="page-nav__logo"><a href="<?php echo site_url("/") ?>">Health AI</a></span>
-                <i id="page-nav__mobile-button" class="fa-solid fa-bars"></i>
-                <ul class="page-nav__list">
-                    <li><a href="<?php echo site_url("/about") ?>">About</a></li>
-                    <li><a href="<?php echo site_url("/blog") ?>">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li style="position: relative;"><a href="<?php echo site_url("/product") ?>">Product</a><button class="page-nav__dropdown-button" id="dropdown-button"><i class="fa-solid fa-angle-down"></i></button>
-                        <ul class="page-nav__dropdown display-none">
-                            <li><a href="<?php echo site_url("/product/pricing") ?>">Pricing</a></li>
-                            <li><a href="<?php echo get_post_type_archive_link("device") ?>">Devices</a></li>
-                            <li><a href="#">Health Technology</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <button class="page-nav__button"><a href="#">Try Demo</a></button>
-                <i class="fa-solid fa-square-xmark page-nav__close-button"></i>
-            </nav>
-        </header>
+
+    <header>
+        <nav class="page-nav">
+            <span class="page-nav__logo"><a href="<?php echo site_url("/") ?>">Health AI</a></span>
+            <i id="page-nav__mobile-button" class="fa-solid fa-bars"></i>
+            <ul class="page-nav__list">
+                <li><a href="<?php echo site_url("/about") ?>">About</a></li>
+                <li><a href="<?php echo site_url("/blog") ?>">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li style="position: relative;"><a href="<?php echo site_url("/product") ?>">Product</a><button class="page-nav__dropdown-button" id="dropdown-button"><i class="fa-solid fa-angle-down"></i></button>
+                    <ul class="page-nav__dropdown display-none">
+                        <li><a href="<?php echo site_url("/product/pricing") ?>">Pricing</a></li>
+                        <li><a href="<?php echo get_post_type_archive_link("device") ?>">Devices</a></li>
+                        <li><a href="#">Health Technology</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="page-nav__button"><a href="#">Try Demo</a></button>
+            <i class="fa-solid fa-square-xmark page-nav__close-button"></i>
+        </nav>
+    </header>

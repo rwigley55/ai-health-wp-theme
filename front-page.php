@@ -1,28 +1,29 @@
 <?php get_header(); ?>
-<div class="section-container">
-    <h1 class="homepage__heading">Manage your health easily!</h1>
-    <p class="homepage__subheading">An AI-powered healthcare platform that provides patients and healthcare professionals better medical records, diagnoses, and treatment plans management.</p>
-    <p class="homepage__company-tray-heading">Trusted by the best</p>
-    <img class="homepage__company-logos" src="<?php echo get_theme_file_uri("/images/homepage__logos.webp") ?>" alt="health companies" />
-    <h2 class="homepage__card-heading">Why Health AI</h2>
-    <div class="homepage__card-tray">
-        <div class="homepage__card-one">
-            <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-1.webp") ?>" alt="">
-            <h3>Medical Records Management</h3>
-            <p>Easily access and share medical records with your healthcare professional, ensuring more efficient care.</p>
-        </div>
-        <div class="homepage__card-two">
-            <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-2.webp") ?>" alt="">
-            <h3>Diagnosis Assistance</h3>
-            <p>Our AI algorithms analyze your data to provide accurate diagnosis assistance to healthcare professionals.</p>
-        </div>
-        <div class="homepage__card-three">
-            <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-3.webp") ?>" alt="">
-            <h3>Personalized Treatment Plans</h3>
-            <p>By tailoring treatment plans to your specific needs, Lativ helps improve outcomes and incrlativ your health.</p>
+<section>
+    <div class="section-container">
+        <h1 class="homepage__heading">Manage your health easily!</h1>
+        <p class="homepage__subheading">An AI-powered healthcare platform that provides patients and healthcare professionals better medical records, diagnoses, and treatment plans management.</p>
+        <p class="homepage__company-tray-heading">Trusted by the best</p>
+        <img class="homepage__company-logos" src="<?php echo get_theme_file_uri("/images/homepage__logos.webp") ?>" alt="health companies" />
+        <h2 class="homepage__card-heading">Why Health AI</h2>
+        <div class="homepage__card-tray">
+            <div class="homepage__card-one">
+                <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-1.webp") ?>" alt="">
+                <h3>Medical Records Management</h3>
+                <p>Easily access and share medical records with your healthcare professional, ensuring more efficient care.</p>
+            </div>
+            <div class="homepage__card-two">
+                <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-2.webp") ?>" alt="">
+                <h3>Diagnosis Assistance</h3>
+                <p>Our AI algorithms analyze your data to provide accurate diagnosis assistance to healthcare professionals.</p>
+            </div>
+            <div class="homepage__card-three">
+                <img src="<?php echo get_theme_file_uri("/images/homepage__card-image-3.webp") ?>" alt="">
+                <h3>Personalized Treatment Plans</h3>
+                <p>By tailoring treatment plans to your specific needs, Lativ helps improve outcomes and incrlativ your health.</p>
+            </div>
         </div>
     </div>
-</div>
 </section>
 <section>
     <div class="section-container-two">
